@@ -1,0 +1,14 @@
+<div th:fragment="header">
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+        <h5 class="my-0 mr-md-auto font-weight-normal">Каталог продуктов</h5>
+        <nav class="my-2 my-md-0 mr-md-3">
+            <a class="p-2 text-dark" href="/">Главная</a>
+            <a class="p-2 text-dark" href="/add">Добавить</a>
+        </nav>
+        <form method="post" action="/" class="form-inline mt-2 mt-md-0">
+            <input class="form-control mb-2 mr-sm-2" type="text" placeholder="Search" name="search" autocomplete="off">
+            <button class="btn btn-outline-dark mb-2" type="submit">Search</button>
+        </form>
+    </div>
+    <br>
+</div>
